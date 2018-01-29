@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		799F9E74201F03CA001BC019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F9E73201F03CA001BC019 /* AppDelegate.swift */; };
+		799F9E76201F03CA001BC019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F9E75201F03CA001BC019 /* ViewController.swift */; };
+		799F9E79201F03CA001BC019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799F9E77201F03CA001BC019 /* Main.storyboard */; };
+		799F9E7B201F03CA001BC019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799F9E7A201F03CA001BC019 /* Assets.xcassets */; };
+		799F9E7E201F03CA001BC019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799F9E7C201F03CA001BC019 /* LaunchScreen.storyboard */; };
+		799F9E89201F03CA001BC019 /* GKPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F9E88201F03CA001BC019 /* GKPlayerTests.swift */; };
+		799F9E94201F03CA001BC019 /* GKPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F9E93201F03CA001BC019 /* GKPlayerUITests.swift */; };
+		799F9EA2201F03DF001BC019 /* GKPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F9EA1201F03DF001BC019 /* GKPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		799F9E85201F03CA001BC019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799F9E68201F03CA001BC019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 799F9E6F201F03CA001BC019;
+			remoteInfo = GKPlayer;
+		};
+		799F9E90201F03CA001BC019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799F9E68201F03CA001BC019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 799F9E6F201F03CA001BC019;
+			remoteInfo = GKPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		799F9E70201F03CA001BC019 /* GKPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		799F9E73201F03CA001BC019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		799F9E75201F03CA001BC019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		799F9E78201F03CA001BC019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		799F9E7A201F03CA001BC019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		799F9E7D201F03CA001BC019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		799F9E7F201F03CA001BC019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799F9E84201F03CA001BC019 /* GKPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		799F9E88201F03CA001BC019 /* GKPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKPlayerTests.swift; sourceTree = "<group>"; };
+		799F9E8A201F03CA001BC019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799F9E8F201F03CA001BC019 /* GKPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		799F9E93201F03CA001BC019 /* GKPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKPlayerUITests.swift; sourceTree = "<group>"; };
+		799F9E95201F03CA001BC019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799F9EA1201F03DF001BC019 /* GKPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		799F9E6D201F03CA001BC019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799F9E81201F03CA001BC019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799F9E8C201F03CA001BC019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		799F9E67201F03CA001BC019 = {
+			isa = PBXGroup;
+			children = (
+				799F9E72201F03CA001BC019 /* GKPlayer */,
+				799F9E87201F03CA001BC019 /* GKPlayerTests */,
+				799F9E92201F03CA001BC019 /* GKPlayerUITests */,
+				799F9E71201F03CA001BC019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		799F9E71201F03CA001BC019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				799F9E70201F03CA001BC019 /* GKPlayer.app */,
+				799F9E84201F03CA001BC019 /* GKPlayerTests.xctest */,
+				799F9E8F201F03CA001BC019 /* GKPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		799F9E72201F03CA001BC019 /* GKPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				799F9E73201F03CA001BC019 /* AppDelegate.swift */,
+				799F9E75201F03CA001BC019 /* ViewController.swift */,
+				799F9E77201F03CA001BC019 /* Main.storyboard */,
+				799F9E7A201F03CA001BC019 /* Assets.xcassets */,
+				799F9E7C201F03CA001BC019 /* LaunchScreen.storyboard */,
+				799F9E7F201F03CA001BC019 /* Info.plist */,
+				799F9EA1201F03DF001BC019 /* GKPlayer.swift */,
+			);
+			path = GKPlayer;
+			sourceTree = "<group>";
+		};
+		799F9E87201F03CA001BC019 /* GKPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				799F9E88201F03CA001BC019 /* GKPlayerTests.swift */,
+				799F9E8A201F03CA001BC019 /* Info.plist */,
+			);
+			path = GKPlayerTests;
+			sourceTree = "<group>";
+		};
+		799F9E92201F03CA001BC019 /* GKPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				799F9E93201F03CA001BC019 /* GKPlayerUITests.swift */,
+				799F9E95201F03CA001BC019 /* Info.plist */,
+			);
+			path = GKPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		799F9E6F201F03CA001BC019 /* GKPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799F9E98201F03CA001BC019 /* Build configuration list for PBXNativeTarget "GKPlayer" */;
+			buildPhases = (
+				799F9E6C201F03CA001BC019 /* Sources */,
+				799F9E6D201F03CA001BC019 /* Frameworks */,
+				799F9E6E201F03CA001BC019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKPlayer;
+			productName = GKPlayer;
+			productReference = 799F9E70201F03CA001BC019 /* GKPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		799F9E83201F03CA001BC019 /* GKPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799F9E9B201F03CA001BC019 /* Build configuration list for PBXNativeTarget "GKPlayerTests" */;
+			buildPhases = (
+				799F9E80201F03CA001BC019 /* Sources */,
+				799F9E81201F03CA001BC019 /* Frameworks */,
+				799F9E82201F03CA001BC019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				799F9E86201F03CA001BC019 /* PBXTargetDependency */,
+			);
+			name = GKPlayerTests;
+			productName = GKPlayerTests;
+			productReference = 799F9E84201F03CA001BC019 /* GKPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		799F9E8E201F03CA001BC019 /* GKPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799F9E9E201F03CA001BC019 /* Build configuration list for PBXNativeTarget "GKPlayerUITests" */;
+			buildPhases = (
+				799F9E8B201F03CA001BC019 /* Sources */,
+				799F9E8C201F03CA001BC019 /* Frameworks */,
+				799F9E8D201F03CA001BC019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				799F9E91201F03CA001BC019 /* PBXTargetDependency */,
+			);
+			name = GKPlayerUITests;
+			productName = GKPlayerUITests;
+			productReference = 799F9E8F201F03CA001BC019 /* GKPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		799F9E68201F03CA001BC019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yeqingyu;
+				TargetAttributes = {
+					799F9E6F201F03CA001BC019 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					799F9E83201F03CA001BC019 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 799F9E6F201F03CA001BC019;
+					};
+					799F9E8E201F03CA001BC019 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 799F9E6F201F03CA001BC019;
+					};
+				};
+			};
+			buildConfigurationList = 799F9E6B201F03CA001BC019 /* Build configuration list for PBXProject "GKPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 799F9E67201F03CA001BC019;
+			productRefGroup = 799F9E71201F03CA001BC019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				799F9E6F201F03CA001BC019 /* GKPlayer */,
+				799F9E83201F03CA001BC019 /* GKPlayerTests */,
+				799F9E8E201F03CA001BC019 /* GKPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		799F9E6E201F03CA001BC019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799F9E7E201F03CA001BC019 /* LaunchScreen.storyboard in Resources */,
+				799F9E7B201F03CA001BC019 /* Assets.xcassets in Resources */,
+				799F9E79201F03CA001BC019 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799F9E82201F03CA001BC019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799F9E8D201F03CA001BC019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		799F9E6C201F03CA001BC019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799F9EA2201F03DF001BC019 /* GKPlayer.swift in Sources */,
+				799F9E76201F03CA001BC019 /* ViewController.swift in Sources */,
+				799F9E74201F03CA001BC019 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799F9E80201F03CA001BC019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799F9E89201F03CA001BC019 /* GKPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799F9E8B201F03CA001BC019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799F9E94201F03CA001BC019 /* GKPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		799F9E86201F03CA001BC019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 799F9E6F201F03CA001BC019 /* GKPlayer */;
+			targetProxy = 799F9E85201F03CA001BC019 /* PBXContainerItemProxy */;
+		};
+		799F9E91201F03CA001BC019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 799F9E6F201F03CA001BC019 /* GKPlayer */;
+			targetProxy = 799F9E90201F03CA001BC019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		799F9E77201F03CA001BC019 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				799F9E78201F03CA001BC019 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		799F9E7C201F03CA001BC019 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				799F9E7D201F03CA001BC019 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		799F9E96201F03CA001BC019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		799F9E97201F03CA001BC019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		799F9E99201F03CA001BC019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GKPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kesun.GKPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		799F9E9A201F03CA001BC019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GKPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kesun.GKPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		799F9E9C201F03CA001BC019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GKPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kesun.GKPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKPlayer.app/GKPlayer";
+			};
+			name = Debug;
+		};
+		799F9E9D201F03CA001BC019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GKPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kesun.GKPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKPlayer.app/GKPlayer";
+			};
+			name = Release;
+		};
+		799F9E9F201F03CA001BC019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GKPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kesun.GKPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GKPlayer;
+			};
+			name = Debug;
+		};
+		799F9EA0201F03CA001BC019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GKPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kesun.GKPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GKPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		799F9E6B201F03CA001BC019 /* Build configuration list for PBXProject "GKPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799F9E96201F03CA001BC019 /* Debug */,
+				799F9E97201F03CA001BC019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799F9E98201F03CA001BC019 /* Build configuration list for PBXNativeTarget "GKPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799F9E99201F03CA001BC019 /* Debug */,
+				799F9E9A201F03CA001BC019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799F9E9B201F03CA001BC019 /* Build configuration list for PBXNativeTarget "GKPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799F9E9C201F03CA001BC019 /* Debug */,
+				799F9E9D201F03CA001BC019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799F9E9E201F03CA001BC019 /* Build configuration list for PBXNativeTarget "GKPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799F9E9F201F03CA001BC019 /* Debug */,
+				799F9EA0201F03CA001BC019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 799F9E68201F03CA001BC019 /* Project object */;
+}
